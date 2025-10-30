@@ -14,8 +14,8 @@ const Card = ({ name, role, skills = [] }) => {
                         Skills:
                     </span>
                     <ul className="list-disc list-inside text-sm">
-                        {skills.map((skills, index) => (
-                            <li key={index}>{skills}</li>
+                        {skills.map((skill, index) => (
+                            <li key={index}>{skill}</li>
                         ))}
                     </ul>
                 </div>
