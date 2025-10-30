@@ -9,7 +9,23 @@ function App() {
 
   return (
     <>
-      <Card />
+      <Card 
+        name = "Dimple Kumari"
+        role ="Frontend Developer"
+        skills = {["React", "Tailwind", "JavaScript", "Git"]}
+      />
+
+      <Card 
+        name = "Priya Singh"
+        role = "Backend Developer"
+        skills = {["Node.js", "Express", "MongoDB", "RestAPIs"]}
+      />
+
+      <Card 
+        name= "Neha Sharma"
+        role= "UI/UX Designer"
+        skills = {["Figma", "Adobe XD", "Sketch", "InVision"]}     
+        />
     </>
   )
 }
